@@ -20,14 +20,26 @@ body {
 }
 
 .top_content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
   border-top: 2px solid #4C0068;
   border-bottom: 2px solid #4C0068;
   margin-top: 0.5em;
+  background: #7C3098;
+}
+
+.header {
+  margin: 7px 2em;
+  flex-grow: 4;
 }
 
 .photo img {
+  max-width: 3cm;
   max-height: 5cm;
+  height: auto;
   width: auto;
+  border: 1px solid #060606;
 }
 
 
