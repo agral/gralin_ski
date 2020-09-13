@@ -118,3 +118,14 @@ h3 {
   font-style: italic;
 }
 
+.languages table {
+  border-collapse: collapse;
+  /*width: 80%;*/
+  margin: 0.4em auto;
+  text-align: center;
+}
+.languages table, .languages td, .languages th {
+  border: 1px solid #363636;
+  padding: 0.1em 0.6em;
+}
+
