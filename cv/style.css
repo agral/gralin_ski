@@ -76,7 +76,6 @@ h3 {
 }
 
 .column {
-  /* background: #cf3f3f; */
   flex-basis: 50%;
   flex-grow: 1;
   text-align: left;
@@ -84,7 +83,8 @@ h3 {
 
 .spacer {
   flex-grow: 1;
-  width: 5%;
+  max-width: 5%;
+  min-width: 5%;
 }
 
 .subsection {
@@ -96,7 +96,7 @@ h3 {
 
 .footer {
   border-top: 2px solid #4C0068;
-  margin-bottom: 0.5em;
+  margin: 1.5em 0;
 }
 
 .left_and_right {
