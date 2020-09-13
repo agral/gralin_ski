@@ -11,6 +11,10 @@ body {
   color: #060606;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
+
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
 }
 
 ul, li {
@@ -76,6 +80,7 @@ h3 {
 }
 
 .column {
+  min-width: 30%;
   flex-basis: 50%;
   flex-grow: 1;
   text-align: left;
