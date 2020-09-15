@@ -1,5 +1,5 @@
 /* Nullifies any implicit margins/paddings/borders etc. */
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, a {
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img {
   border: 0;
   margin: 0;
   padding: 0;
