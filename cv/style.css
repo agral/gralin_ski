@@ -69,6 +69,12 @@ h3 {
   margin-top: 3px;
 }
 
+.left_aligned_with_padding {
+  text-align: left;
+  vertical-align: middle;
+  padding-left: 1em;
+}
+
 .middle_content {
   display: flex;
   flex-direction: row;
