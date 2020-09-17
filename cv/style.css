@@ -77,8 +77,15 @@ h3 {
 
 .middle_content {
   display: flex;
-  flex-direction: row;
   align-items: flex-start;
+  flex-direction: column;
+}
+
+/* displays a two-column layout only on screens where width is at least 800px. */
+@media only screen and (min-width: 800px) {
+  .middle_content {
+    flex-direction: row;
+  }
 }
 
 .column {
