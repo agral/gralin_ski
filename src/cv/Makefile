@@ -1,4 +1,4 @@
-DIR_OUTPUT=../out/cv
+DIR_OUTPUT=../../out/cv
 
 CSS_SOURCE=scss/style.scss
 CSS_TARGET=$(DIR_OUTPUT)/style.css

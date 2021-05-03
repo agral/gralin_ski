@@ -1,7 +1,7 @@
 INTERMEDIATES_DIR=build
 SOURCE_FILENAME=CV.tex
 PDF_FILENAME=cv.pdf
-PUBLISH_DIR="../../out/cv/tex"
+PUBLISH_DIR="../../../out/cv/tex"
 
 .PHONY: build publish
 
