@@ -11,6 +11,8 @@ build: $(SOURCE_FILENAME)
 	@mv "$(INTERMEDIATES_DIR)/CV.pdf" "./$(PDF_FILENAME)"
 	@echo "successfully built $(PDF_FILENAME)"
 
+$(PDF_FILENAME): build
+
 publish: $(PDF_FILENAME)
 	@mkdir -p "$(PUBLISH_DIR)"
 	@cp "$(PDF_FILENAME)" "$(PUBLISH_DIR)/"
