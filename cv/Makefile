@@ -1,15 +1,25 @@
-SOURCE=scss/style.scss
-TARGET=style.css
+DIR_OUTPUT=../out/cv
 
-.PHONY: all clean compressed pretty
+CSS_SOURCE=scss/style.scss
+CSS_TARGET=$(DIR_OUTPUT)/style.css
 
-all: pretty
+.PHONY: publish clean
+
+publish: css_compressed copy_static_files
 
 clean:
-	@rm -v $(TARGET)
+	@rm -rfv "$(DIR_OUTPUT)"
 
-compressed:
-	sassc -t compressed $(SOURCE) $(TARGET)
+.PHONY: css_compressed css_pretty copy_static_files
+css_compressed:
+	@mkdir -p "$(DIR_OUTPUT)"
+	sassc -t compressed "$(CSS_SOURCE)" "$(CSS_TARGET)"
 
-pretty:
-	sassc -t expanded $(SOURCE) $(TARGET)
+css_pretty:
+	@mkdir -p "$(DIR_OUTPUT)"
+	sassc -t expanded "$(CSS_SOURCE)" "$(CSS_TARGET)"
+
+copy_static_files:
+	@mkdir -p "$(DIR_OUTPUT)"
+	@cp -rv "images/" "$(DIR_OUTPUT)/"
+	@cp -v "index.html" "$(DIR_OUTPUT)/"
