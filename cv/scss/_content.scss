@@ -62,8 +62,9 @@ ul {
 }
 
 .tech {
-  font-weight: 700;
-  color: $clBlack;
+  font-weight: 400;
+  font-family: $fntSrc, monospace;
+  color: $clTech;
 }
 
 .languages table {
