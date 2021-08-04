@@ -5,7 +5,8 @@ CSS_TARGET=$(DIR_OUTPUT)/style.css
 
 .PHONY: all clean publish debug
 
-all: publish
+# all: publish
+all: debug
 
 clean:
 	@rm -rf "${DIR_OUTPUT}"
@@ -16,11 +17,11 @@ debug: css_pretty copy_static_files
 
 .PHONY: css_compressed css_pretty copy_static_files
 css_compressed:
-	@mkdir -p $(@D)
+	@mkdir -p "${DIR_OUTPUT}"
 	sassc -t compressed "$(CSS_SOURCE)" "$(CSS_TARGET)"
 
 css_pretty:
-	@mkdir -p $(@D)
+	@mkdir -p "${DIR_OUTPUT}"
 	sassc -t expanded "$(CSS_SOURCE)" "$(CSS_TARGET)"
 
 copy_static_files:
