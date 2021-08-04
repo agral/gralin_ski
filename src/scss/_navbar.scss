@@ -1,0 +1,64 @@
+$clLight1: #E4DEE6;
+
+.sidebar {
+  //background: #4C0068;
+  background: #35263A;
+  //background: #2F3B4E;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar > img {
+  width: 100%;
+  background: black;
+}
+
+.sidebar > nav {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar > nav > p {
+  color: $clLight1;
+  text-align: center;
+  padding: 10px 5px;
+}
+
+.sidebar > nav > a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding: 0.4rem 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .sidebar {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .sidebar > img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .sidebar > nav > a {
+    padding: 0.4rem;
+    text-color: #321654;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .sidebar {
+    height: 100%;
+    width: 100px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .sidebar {
+    height: 100%;
+    width: 150px;
+  }
+}
