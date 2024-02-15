@@ -39,11 +39,9 @@ header h3 {
 
 header ul {
   list-style-type: none;
-  background: rgba(0, 255, 0, 0.2);
 }
 header ul > li {
   display: inline-block;
-  background: rgba(255, 0, 0, 0.2);
   font-family: "Lato", sans-serif;
   font-weight: 700;
 }
@@ -56,5 +54,4 @@ header ul > li + li::before {
   content: "\00B7";
   color: #777;
   padding: 0 0.5rem;
-  background: yellow;
 }
