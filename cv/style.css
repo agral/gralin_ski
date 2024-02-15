@@ -45,6 +45,10 @@ header ul > li {
   font-family: "Lato", sans-serif;
   font-weight: 700;
 }
+header ul > li i {
+  color: #444;
+  padding-right: 0.375rem;
+}
 /* li + li: matches every li element except the first one */
 header ul > li + li {
   margin: 0;
@@ -53,5 +57,5 @@ header ul > li + li::before {
   /* content: small bullet point - Unicode 00B7 */
   content: "\00B7";
   color: #777;
-  padding: 0 0.5rem;
+  padding: 0 0.75rem;
 }
