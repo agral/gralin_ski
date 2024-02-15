@@ -32,7 +32,18 @@ header ul > li + li {
 header ul > li + li::before {
   /* content: small bullet point - Unicode 00B7 */
   content: "\00B7";
-  color: #777; /* uniform gray */
+  color: #777;
   padding: 0 0.5rem;
   background: yellow;
+}
+
+header h1 {
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  font-style: normal;
+}
+header h1 > span {
+  font-weight: 300;
 }
