@@ -71,13 +71,16 @@ h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 1.8rem;
-  margin-bottom: 0.25rem;
+  margin-bottom: -0.5rem;
 }
 h2::before {
   content: "//";
   padding-right: 0.5rem;
 }
 
+main section {
+  margin-top: 1rem;
+}
 .text-and-date {
   display: flex;
   justify-content: space-between;
@@ -86,8 +89,7 @@ h2::before {
 }
 
 main ul {
-  list-style-position: inside;
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 footer {
