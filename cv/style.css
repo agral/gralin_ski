@@ -81,6 +81,8 @@ h2::before {
 .text-and-date {
   display: flex;
   justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.375rem;
 }
 
 footer {
