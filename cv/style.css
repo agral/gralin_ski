@@ -92,6 +92,17 @@ main ul {
   margin-left: 2rem;
 }
 
+.tech {
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-size: 0.8rem;
+  background: #f88e39;
+  border-radius: 0.4rem;
+  padding: 0.1rem 0.2rem 0.2rem 0.2rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 footer {
   border-top: 1px solid black;
   color: #777;
