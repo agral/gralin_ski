@@ -92,6 +92,13 @@ main ul {
   margin-left: 2rem;
 }
 
+main .row {
+  display: flex;
+}
+main .column {
+  flex: 50%;
+}
+
 .tech {
   font-family: "Share Tech Mono", monospace;
   font-weight: 400;
