@@ -109,6 +109,25 @@ main .column {
   margin-top: 1rem;
 }
 
+main table, main table th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+main table td {
+  border-right: 1px solid black;
+  border-collapse: collapse;
+}
+main table th {
+  border-bottom: 1px solid black;
+  font-weight: bold;
+}
+main table th, main table td {
+  padding: 0.1rem 0.75rem;
+}
+main table {
+  text-align: center;
+}
+
 .tech {
   font-family: "Share Tech Mono", monospace;
   font-weight: 400;
