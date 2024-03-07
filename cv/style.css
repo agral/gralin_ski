@@ -94,9 +94,19 @@ main ul {
 
 main .row {
   display: flex;
+  gap: 4rem;
 }
 main .column {
   flex: 50%;
+}
+
+.vspace_small {
+  display: block;
+  margin-top: 0.5rem;
+}
+.vspace_regular {
+  display: block;
+  margin-top: 1rem;
 }
 
 .tech {
