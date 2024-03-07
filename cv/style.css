@@ -101,7 +101,6 @@ main .column {
 }
 
 .vspace_small {
-  display: block;
   margin-top: 0.5rem;
 }
 .vspace_regular {
