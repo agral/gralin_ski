@@ -101,15 +101,15 @@ main ul {
 }
 
 main table, main table th {
-  border: 1px solid black;
+  border: 0.125rem solid black;
   border-collapse: collapse;
 }
 main table td {
-  border-right: 1px solid black;
+  border-right: 0.125rem solid black;
   border-collapse: collapse;
 }
 main table th {
-  border-bottom: 1px solid black;
+  border-bottom: 0.125rem solid black;
   font-weight: bold;
 }
 main table th, main table td {
