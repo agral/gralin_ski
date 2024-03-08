@@ -92,14 +92,6 @@ main ul {
   margin-left: 2rem;
 }
 
-main .row {
-  display: flex;
-  gap: 4rem;
-}
-main .column {
-  flex: 50%;
-}
-
 .vspace_small {
   margin-top: 0.5rem;
 }
@@ -148,4 +140,20 @@ footer {
   text-align: center;
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 640px) {
+  body {
+    padding: 0.5rem;
+  }
+}
+
+@media (min-width: 641px) {
+  main .row {
+    display: flex;
+    gap: 4rem;
+  }
+  main .column {
+    flex: 50%;
+  }
 }
