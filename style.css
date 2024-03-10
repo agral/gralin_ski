@@ -10,4 +10,14 @@ html {
 body {
   padding: 1rem;
   background: #fafaeb;
+  font-family: "Roboto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+@media (min-width: 60rem) { /* 960px and more */
+  body {
+    margin: 0 auto;
+    max-width: 60rem;
+  }
 }
