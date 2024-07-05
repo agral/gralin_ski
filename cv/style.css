@@ -131,6 +131,26 @@ main table {
   vertical-align: middle;
 }
 
+.award {
+    border-radius: 0.3rem;
+    display: inline-block;
+    font-style: italic;
+    font-size: 0.8rem;
+    padding: 0.1rem 0.3rem;
+    background: #f7f252; /*#c9c54f*/;
+    vertical-align: baseline;
+}
+.award::before {
+    display: inline-block;
+    content: "\f091";
+    font: var(--fa-font-solid);
+    font-size: 0.8rem;
+    text-rendering: auto;
+    padding-right: 0.25rem;
+    transform: rotate(10deg);
+    -webkit-font-smoothing: antialiased;
+}
+
 footer {
   border-top: 1px solid black;
   color: #777;
