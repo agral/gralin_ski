@@ -8,13 +8,14 @@ html {
 }
 
 body {
+  background: #fafaeb;
   font-family: "Libre Baskerville", serif;
-  font-weight: 400;
   font-style: normal;
+  font-weight: 400;
   margin: 0 auto;
   max-width: 900px;
   min-width: 0;
-  background: #fafaeb;
+  padding: 0.5rem;
 }
 
 header {
@@ -164,9 +165,6 @@ footer {
 }
 
 @media (max-width: 640px) {
-  body {
-    padding: 0.5rem;
-  }
 }
 
 @media (min-width: 641px) {
