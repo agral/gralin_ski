@@ -125,7 +125,8 @@ main table {
   font-family: "Share Tech Mono", monospace;
   font-weight: 400;
   font-size: 0.8rem;
-  background: #f88e39;
+  /*background: #f88e39;*/
+  background: #f8ad70;
   border-radius: 0.4rem;
   padding: 0.1rem 0.2rem 0.2rem 0.2rem;
   display: inline-block;
